@@ -1,0 +1,23 @@
+{
+  "module": "deadlock-optimizer",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "tuner": {
+      "enabled": true
+    },
+    "configs": {
+      "enabled": true
+    },
+    "monitor": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
